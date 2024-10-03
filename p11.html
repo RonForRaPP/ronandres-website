@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Ron Andres</title>
+    <link rel="stylesheet" href="styles/grfour.css">
+</head>
+<body onload="Javascript: AutoRefresh (6000);">
+    <div class="main">
+        <img class="two" src="styles/images/Walking man ISO right no repeat.gif" width="100%" height="100%">
+        <img class="one" src="styles/images/Walking man ISO left no repeat.gif" width="100%" height="100%">
+    </div>
+
+    <script>
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    document.querySelector(".one").style.
+                    display = "block"
+                },
+                2000
+            )
+        });
+
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    document.querySelector(".two").style.
+                    display = "block"
+                },
+                3100
+            )
+        });
+
+        function AutoRefresh (t) {
+            setTimeout ("location.reload (true);", t);
+            /*document.getElementById("refresh_status").innerHTML="Refresh Done";*/
+        }
+    </script>
+
+</body>
+</html>
