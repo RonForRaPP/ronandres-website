@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Ron Andres</title>
+    <link rel="stylesheet" href="styles/grsix_6.css">
+</head>
+<body>
+
+    <div class="image">
+        <img id="repeat" src="styles/images/Walking man ISO left no repeat.gif" width="100%" height="100%">
+    </div>
+
+    <div class="image">
+        <img src="styles/images/Walking man ISO right no repeat.gif" width="100%" height="100%">
+    </div>
+
+    <div class="image">
+        <img src="styles/images/TV fuzz transparent.gif" width="100%" height="100%">
+    </div>
+
+
+    <script>
+        /*window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    window.location.href = 'p7.html'
+                    console.log("11 seconds elapsed.")
+                },
+                11000
+            )
+        });*/
+
+        /*window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    document.querySelector(".modal").style.
+                    display = "block"
+                },
+                3000
+            )
+        });*/
+
+
+        var image = document.getElementsByClassName("image")
+
+
+
+        /*window.onload = function() {
+            var image = document.getElementById("repeat");
+
+            function updateImage() {
+                image.src = image.src.split("?")[0] + "?" + new Date().getTime();
+            }
+
+            setInterval(updateImage, 4000);
+        }*/
+
+
+
+        const collection = document.getElementsByTagName("image")[1];
+
+        console.log("got it")
+
+
+
+        /*for (let i = 0; i < collection.length; i++) {
+        collection.item(i).style.display = "block";
+        }*/
+
+
+
+    </script>
+</body>
+</html>
