@@ -1,0 +1,86 @@
+*, 
+*, :before
+*, :after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    height: 100vh;
+}
+html {
+    height: 100%;
+}
+body {
+    touch-action: pan-y;
+    display: grid;
+    place-content: center;
+
+    /*height: 100%;*/
+
+    /*background-color: blue;*/
+}
+.image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+
+    /*height: 100%;
+    width: auto;*/
+
+    max-height: fit-content;
+    /*max-height: 100vh;*/
+    max-width: fit-content;
+
+    /*width: 100%;*/
+
+    /*max-width: 100%;
+    height: auto;*/
+}
+.image .top {
+    grid-area: 1 / 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    /*height: 100%;
+    width: auto;*/
+
+    max-height: fit-content;
+    /*max-height: 100vh;*/
+    max-width: fit-content;
+
+    /*width: 100%;*/
+
+    /*max-width: 100%;
+    height: auto;*/
+
+    /*background-color: lightcoral;*/
+}
+.image .second {
+    grid-area: 1 / 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    /*height: 100%;
+    width: auto;*/
+
+    max-height: fit-content;
+    /*max-height: 100vh;*/
+    max-width: fit-content;
+
+    /*width: 100%;*/
+
+    /*max-width: 100%;
+    height: auto;*/
+
+    /*background-color: blueviolet;*/
+}
