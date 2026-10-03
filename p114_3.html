@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Ron Andres</title>
+    <link rel="stylesheet" href="styles/layerImagesXfade3_6.4.css">
+    <script>
+        window.addEventListener("load", function(){
+            const script = document.createElement("script");
+            script.src = "scripts/p112_2actions.js";
+            document.body.appendChild(script);
+        });
+    </script>
+</head>
+<body>
+
+    <div class="image">
+        <img class="fifth" src="styles/images/turn on TV, jigger_5.gif">
+    </div>
+
+    <script>
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    document.querySelector(".fifth").style.
+                    display = "grid"
+                },
+                3000
+            )
+        });
+
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open (event){
+                    window.location.href = 'https://ronandres.com/p112_3'
+                    console.log("5 and a half seconds elapsed.")
+                },
+                3500
+            )
+        });
+
+    </script>
+
+</body>
+</html>
